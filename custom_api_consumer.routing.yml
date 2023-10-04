@@ -1,0 +1,7 @@
+custom_api_consumer.properties:
+  path: '/custom-api-consumer/properties'
+  defaults:
+    _controller: '\Drupal\custom_api_consumer\Controller\CustomApiConsumerController::fetchProperties'
+    _title: 'Properties from API'
+  requirements:
+    _permission: 'access content'

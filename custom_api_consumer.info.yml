@@ -1,0 +1,6 @@
+name: 'Custom API Consumer'
+type: module
+description: 'Custom module to consume a REST API and display data.'
+core_version_requirement: ^8 || ^9
+package: Custom
+version: 1.0
